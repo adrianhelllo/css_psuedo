@@ -26,6 +26,15 @@ nav a {
     position: relative;
 }
 
+nav a::first-letter {
+    font-size: 1.5em;
+    font-weight: 800;
+    background-color: aqua;
+    padding: 0.5em;
+    border-radius: 25%;
+    margin-right: 0.25em;
+}
+
 nav a:nth-child(2)::before {
     color: rgb(0, 0, 0);
     content: open-quote;
