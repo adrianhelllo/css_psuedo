@@ -24,8 +24,8 @@ nav a {
     border: 2px solid black;
 }
 
-nav a:target {
-    /* the element to which the last selected link refers to */
+nav a[href] {
+    color: red;
 }
 
 /* PSUEDO CLASSES: Selector which selects elements in a certain state
