@@ -24,7 +24,7 @@ nav a {
     border: 2px solid black;
 }
 
-nav a[href] {
+nav a:not([href]) {
     color: red;
 }
 
