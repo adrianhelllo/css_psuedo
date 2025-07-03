@@ -24,14 +24,8 @@ nav a {
     border: 2px solid black;
 }
 
-nav a:link, nav a:visited {
-    // do something
-    /* this is unnecessary */
-}
-
-nav a:any-link {
-    // do something
-    /* this is better */
+nav a:target {
+    /* the element to which the last selected link refers to */
 }
 
 /* PSUEDO CLASSES: Selector which selects elements in a certain state
