@@ -25,10 +25,16 @@ nav a {
     text-align: center;
 }
 
+nav a:nth-child(2)::before {
+    color: red;
+    content: open-quote;
+    font-size: 2rem;
+}
+
 nav a:nth-child(2)::after {
     color: red;
-    content: 'I am the second a tag';
-    display: block;
+    content: close-quote;
+    font-size: 2rem;
 }
 
 /* PSUEDO CLASSES: Selector which selects elements in a certain state
