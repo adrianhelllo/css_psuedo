@@ -28,6 +28,12 @@ nav a:link, nav a:visited, nav a:hover, nav a:focus {
     // do something
 }
 
+/* the selectors above are redundant, we can make it shorter. */
+
+nav:is(a:link, a:visited, a:hover, a:focus) {
+    // do something
+}
+
 /* PSUEDO CLASSES: Selector which selects elements in a certain state
         example: a:visited / hover / focus.
         Psuedo classes use one colon (:).
